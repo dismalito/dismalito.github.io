@@ -1,1 +1,615 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cristian Montalvo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+	<script>
+        window.onload = function() {
+            if (!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+    </script>
+    
+
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<section class="site-hero" style="background-image: url(images/background.png);" id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center">
+				<div class="col-md-10 text-center pt-5">
+
+					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Cristian Montalvo</strong></h1>
+					<strong class="d-block text-white text-uppercase letter-spacing">and this is My Portfolio</strong>
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- section -->
+
+
+	<section class="site-section" id="section-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-center col-md-12">
+					<h2>Featured <strong>Portfolio</strong></h2>
+				</div>
+			</div>
+			<div class="filters">
+				<ul>
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".jamcity">Jam City</li>
+					<li data-filter=".etermax">Etermax</li>
+					<li data-filter=".personal">Personal</li>
+				</ul>
+			</div>
+
+			<div class="filters-content">
+				<div class="row grid">
+					
+					<div class="single-portfolio col-sm-4 all etermax">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p6.jpg" alt="">
+							</div>
+							<a href="https://www.meta.com/es-es/experiences/6709385002410356/" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div>
+						<div class="p-inner">
+							<h4>Trivia Crack World VR - Etermax</h4>
+							<div class="cat">Senior Software Engineer</div>
+						</div>
+					</div>
+
+					<div class="single-portfolio col-sm-4 all etermax">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p4.jpg" alt="">
+							</div>
+							<a href="https://apps.apple.com/us/app/trivia-crack-2/id1424533120" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div> 
+						<div class="p-inner">
+							<h4>Trivia Crack 2 - Etermax</h4>
+							<div class="cat">Senior Software Engineer</div>
+						</div>
+					</div>
+					
+					<div class="single-portfolio col-sm-4 all etermax">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p5.jpg" alt="">
+							</div>
+							<a href="https://apps.apple.com/us/app/word-crack-board-fun-game/id441092257" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div>
+						<div class="p-inner">
+							<h4>Word Crack - Etermax</h4>
+							<div class="cat">Senior Software Engineer</div>
+						</div>
+					</div>
+
+					<div class="single-portfolio col-sm-4 all jamcity">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p3.jpg" alt="">
+							</div>
+							<a href="https://apps.apple.com/us/app/disney-frozen-adventures/id1461277361" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a> 
+
+						</div>
+						<div class="p-inner">
+							<h4>Disney Frozen Adventures - Jam City</h4>
+							<div class="cat">Technical Lead</div>
+						</div>
+					</div>
+					
+					<div class="single-portfolio col-sm-4 all jamcity">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p2.jpg" alt="">
+							</div>
+							<a href="https://apps.apple.com/us/app/bubble-shooter-panda-pop/id700970012" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Panda Pop - Jam City</h4>
+							<div class="cat">Ssr Software Engineer</div>
+						</div>                                         
+					</div>                            
+					
+					<div class="single-portfolio col-sm-4 all jamcity">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p1.jpg" alt="">
+							</div>
+							<a href="https://apps.apple.com/us/app/bubble-shooter-snoopy-pop/id1146945768" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Snoopy Pop - Jam City</h4>
+							<div class="cat">Ssr Software Engineer</div>
+						</div>                                         
+					</div>
+
+
+					<div class="single-portfolio col-sm-4 all personal">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<video class="image img-fluid" src="videos/arcane-age.mp4" alt="Arcane-Age" autoplay loop muted></video>
+							</div>
+							<a href="" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Arcane Age MMORPG - Personal</h4>
+							
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>mmorpg</span></div>
+							<div class="work-item-tag" style="background-color: "><span>fullstack</span></div>
+							<div class="work-item-tag" style="background-color: "><span>client-server</span></div>
+							<div class="work-item-tag" style="background-color: "><span>work-in-progress</span></div>
+						</div>
+
+						</div>                                         
+					</div>
+
+
+					<div class="single-portfolio col-sm-4 all personal">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<video class="image img-fluid" src="videos/arcane-veil.mp4" alt="Arcane-Veil" autoplay loop muted></video>
+							</div>
+							<a href="" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Arcane Veil - Game Jam</h4>
+							
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>game-jam</span></div>
+							<div class="work-item-tag" style="background-color: "><span>mini-games</span></div>
+						</div>
+
+						</div>                                         
+					</div>
+
+
+					<div class="single-portfolio col-sm-4 all personal">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<video class="image img-fluid" src="videos/heroes-of-valoria.mp4" alt="Heroes of Valoria" autoplay loop muted></video>
+							</div>
+							<a href="" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Heroes of Valoria - Personal</h4>
+							
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>singleplayer</span></div>
+							<div class="work-item-tag" style="background-color: "><span>2d-platformer</span></div>
+						</div>
+
+						</div>                                         
+					</div>
+
+					<div class="single-portfolio col-sm-4 all personal">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<video class="image img-fluid" src="videos/cooking-chaos.mp4" alt="Cooking-Chaos" autoplay loop muted></video>
+							</div>
+							<a href="" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Cooking Chaos - Personal</h4>
+							
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>multiplayer</span></div>
+							<div class="work-item-tag" style="background-color: "><span>partygame</span></div>
+						</div>
+
+						</div>                                         
+					</div>
+
+					<div class="single-portfolio col-sm-4 all personal">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<video class="image img-fluid" src="videos/space-invaders.mp4" alt="Space Invaders" autoplay loop muted></video>
+							</div>
+							<a href="" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<h4>Space Invaders Multiplayer - Personal</h4>
+							
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c/c++</span></div>
+							<div class="work-item-tag" style="background-color: "><span>sdl</span></div>
+							<div class="work-item-tag" style="background-color: "><span>networking</span></div>
+							<div class="work-item-tag" style="background-color: "><span>multiplayer</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unix</span></div>
+							<div class="work-item-tag" style="background-color: "><span>client-server</span></div>
+						</div>
+
+						</div>                                         
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- .section -->
+
+	
+	<section class="site-section " id="section-resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>My <strong>Resume</strong></h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 class="mb-5">Education</h2>
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> August 2022</span>
+						<h3>Certified Scrum Master</h3>
+						<p>Completed</p>
+						<span class="school">Scrum Alliance</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> December 2016</span>
+						<h3>Informatic Engineering</h3>
+						<p>I'm a graduate of UNLaM having studies Informatic Engineering</p>
+						<span class="school">UNLaM - Buenos Aires, Argentina</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> September 2013</span>
+						<h3>Augmented Reality Researcher</h3>
+						<p>During my time as a researcher, I have developed my skills in prototyping implementation and writing papers for presentation at conferences.</p>
+						<span class="school">UNLaM - Buenos Aires, Argentina</span>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+
+
+					<h2 class="mb-5">Experience</h2>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> September 2022 - March 2024</span>
+						<h3>Senior Software Engineer</h3>
+						<p>In my first weeks at Etermax, I worked on the games Trivia Crack 2 and Word Crack, assisting with task organization, improving processes, and resolving issues related to features and delivery pipelines.</p>
+
+						<p>Later, I was involved in developing the VR version of the company's flagship game, Trivia Crack World (Meta VR, Android, iOS). My challenges included taking control of the complete implementation of multiplayer features and assisting other areas, as well as proposing improvements in the team's overall processes.</p>
+						<span class="school">Etermax</span>
+
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>vr</span></div>
+							<div class="work-item-tag" style="background-color: "><span>meta</span></div>
+							<div class="work-item-tag" style="background-color: "><span>multiplayer</span></div>
+							<div class="work-item-tag" style="background-color: "><span>photon</span></div>
+						</div>
+
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> October 2021 - September 2022</span>
+						<h3>Technical Lead</h3>
+						<p>My responsibilities include planning and estimating roadmaps and sprints, tech roadmap planning (covering tech features, SDK updates, and tech debt), providing team support to address features or overcome blocks, monitoring game health (using Firebase, Google Play Console, App Store Connect, and Customer Service), planning and monitoring OKRs, and ensuring code and product quality. Additionally, I collaborate on strategic decisions with other teams (Art, Design, Product, and QA).</p>
+						<span class="school">Jam City</span>
+
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>firebase</span></div>
+							<div class="work-item-tag" style="background-color: "><span>jenkins</span></div>
+							<div class="work-item-tag" style="background-color: "><span>databricks</span></div>
+						</div>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> December 2017 - October 2021</span>
+						<h3>Ssr Unity Developer</h3>
+						<p>For 4 years, I worked on 3 games, two bubble shooters (Snoopy Pop and Panda Pop), and one match 3 (Disney Frozen Adventures). My responsibilities ranged from bug fixing and event implementations to executing refactors of old features.</p>
+						<span class="school">Jam City</span>
+
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>c#</span></div>
+							<div class="work-item-tag" style="background-color: "><span>unity</span></div>
+							<div class="work-item-tag" style="background-color: "><span>firebase</span></div>
+							<div class="work-item-tag" style="background-color: "><span>jenkins</span></div>
+							<div class="work-item-tag" style="background-color: "><span>databricks</span></div>
+						</div>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> September 2017 - December 2017</span>
+						<h3>.Net Web Developer</h3>
+						<p>I tackled the responsibility to port the WinForm system to ASP.Net Web Page</p>
+						<span class="school">S&E SRL</span>
+
+						<div class="work-item-tags-container">
+							<div class="work-item-tag" style="background-color: #a60b0b"><span>asp.net</span></div>
+							<div class="work-item-tag" style="background-color: "><span>web</span></div>
+							<div class="work-item-tag" style="background-color: "><span>css</span></div>
+							<div class="work-item-tag" style="background-color: "><span>bootstrap</span></div>
+							<div class="work-item-tag" style="background-color: "><span>mysql</span></div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- .section -->
+
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+					<img src="images/image_1.jpg" alt="Image placeholder" class="img-fluid circle-img">
+
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">Music lover and photographer in my free time.</p>
+					<p class="mb-5  ">7 years of game industry experience in a range of genres and platforms: Facebook, Android, iOS and VR. With a natural impetus to improve teamwork processes.</p>
+
+					<p>
+						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+						<a href="Resources/cristian-montalvo-cv.pdf" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section class="site-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-12">
+					<div class="section-heading text-center">
+						<h2> <strong>Recomendations</strong></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;I had the great pleasure of working with Cristian during our time at etermax, where we tackled the exciting challenge of bringing Trivia Crack to VR. Cristian brought a fantastic mix of seniority, enthusiasm, and energy to the team. He consistently offered brilliant ideas that improved our team's processes and helped us achieve the best version of our product. As a team player, Cristian integrated effortlessly into our international team, which spanned four different countries. I’m truly grateful for the time we spent working together and wholeheartedly recommend him. Any team would be lucky to have Cristian!&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Veronica Cabanillas, Lead Product Owner <a href="https://www.etermax.com/es/games">Etermax</a></cite>
+						</blockquote>
+					</div>
+
+				</div>
+				
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_2.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;Cristian has been one of the best colleagues I had the pleasure to work with. I was his leader at etermax, and I must say that he not only excelled at the tasks I assigned to him, he was also very aware of possible issues that could arise and alert me about those with some possible solution for them.
+Since he joined the team, he learned a lot of different skills and put a lot of focus on improve daily, technically, and the processes of the team. He showed a clear improvement during his time at etermax and that shows me that he is a very valuable team member for any project.
+Thanks to not only his execution of tasks but also his level of organization and ownership of the product, I believe he is not only a great software engineering but could definitely be a great leader for any team.
+Thank you Cris for the time we worked together and hope to be able to work with you again soon!&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Facundo Balboa, Technical Owner <a href="https://www.etermax.com/es/games">Etermax</a></cite>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_3.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;I had the pleasure of working alongside Cristian Montalvo at Jamcity, where we both held the roles of Tech Lead. He proved to be an exceptional leader, not only because of his profound technical knowledge but also because he is a great person.
+His impressive ability to take on complex challenges and his willingness to learn or research whatever is necessary to move projects forward is admirable.
+For these reasons and more, I recommend Cristian Montalvo without reservations for any leadership or development role. I am confident that his impact will be more than positive in his next company and team!!!&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Giselle Romero, Technical Lead <a href="https://www.jamcity.com/es/games">Jam City</a></cite>
+						</blockquote>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+
+				<div class="col-md-7 mb-5 mb-md-0">
+					<form action="https://formspree.io/f/mkndyyva" method="POST">
+						<h3 class="mb-5">Get In Touch</h3>
+						<div class="form-group">
+							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							    <input type="email" class="form-control px-3 py-4" placeholder="Your Email" name="email">
+						</div>
+						<div class="form-group mb-5">
+							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message" name="message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+						</div>
+					</form>
+				</div>
+
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">My Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span>
+							cristian.jonathan.montalvo@gmail.com
+						</li>
+						<li>
+							<span class="text-uppercase">Phone</span>
+							+598 9760 3814
+						</li>
+						<li>
+							<span class="text-uppercase">Address</span>
+							Montevideo, Uruguay <br>
+							Prado <br>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="container">
+
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Cristian Montalvo
+				</p>
+			</div>
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="https://www.facebook.com/dismal.cj/" class="social-item"><span class="icon-facebook2"></span></a>
+						<a href="https://www.instagram.com/dismalito" class="social-item"><span class="icon-instagram2"></span></a>
+						<a href="https://www.linkedin.com/in/cristianjonathanmontalvo/" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+
+
+
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+
+	<script src="js/vendor/jquery.stellar.min.js"></script>
+	<script src="js/vendor/jquery.waypoints.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="js/custom.js"></script>
+
+    </body>
+    </html>
