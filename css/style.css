@@ -326,6 +326,20 @@ a {
       .filters ul li.active {
         color: #bac964; }
 
+.single-persopnal-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.single-persopnal-portfolio .thumb {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
 .single-portfolio {
   margin-bottom: 50px;
   display: block; }
