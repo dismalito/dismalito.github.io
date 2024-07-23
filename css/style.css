@@ -330,14 +330,23 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
+.single-persopnal-portfolio .p-inner {
+    text-align: center; }
+    .single-persopnal-portfolio .p-inner h4 {
+      font-size: 20px; }
+    .single-persopnal-portfolio .p-inner .cat {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #cccccc; }
 
 .single-persopnal-portfolio .thumb {
   position: relative;
   overflow: hidden;
   height: 0;
   padding-bottom: 56.25%;
+  margin-bottom: 20px;
 }
 
 .single-portfolio {
